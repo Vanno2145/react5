@@ -1,0 +1,7 @@
+.header-cards-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 360px;
+    gap: 80px;
+    margin-top: 40px;
+}

@@ -1,0 +1,18 @@
+.header, 
+.header-left-part, 
+.header-right-part,
+.header-nav,
+.header-kiyv,
+.header-login,
+.header-icons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+        gap: 30px;
+}
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: gray;
+}

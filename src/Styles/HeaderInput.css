@@ -1,0 +1,28 @@
+.header-input-search{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 1200px;
+    height: 50px;
+    background-color: white;
+}
+
+.header-input-search input{
+    border: none;
+    width: 1200px;
+}
+
+.header-input-search input:focus{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.header-input-search img{
+    margin: 0px 10px 0px 10px;
+}
+ 
+
