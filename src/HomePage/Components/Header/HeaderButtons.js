@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/HeaderButtons.css'
+import './HeaderStyles/HeaderButtons.css'
 
 function HeaderButtons() {
     return (

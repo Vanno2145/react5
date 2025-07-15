@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import HeaderInput from './HeaderInput'
-import '../Styles/HeaderComp.css'
+import './HeaderStyles/HeaderComp.css'
 import HeaderAllCardsComp from './HeaderAllCardsComp'
 import HeaderButtons from './HeaderButtons'
 import HeaderAllForHome from './HeaderAllForHome'

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/HeaderCards.css'
+import './HeaderStyles/HeaderCards.css'
 
 function HeaderCards(props) {
     return (

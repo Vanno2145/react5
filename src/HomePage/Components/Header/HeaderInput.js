@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/HeaderInput.css'
+import './HeaderStyles/HeaderInput.css'
 
 function HeaderInput() {
     return (

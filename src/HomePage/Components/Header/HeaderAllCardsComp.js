@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderCards from './HeaderCards'
-import '../Styles/HeaderAllCards.css'
+import './HeaderStyles/HeaderAllCards.css'
 
 function HeaderAllCardsComp() {
     return (
