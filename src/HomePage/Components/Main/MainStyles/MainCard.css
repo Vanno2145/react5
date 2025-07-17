@@ -1,0 +1,72 @@
+.main-fgrid-card,
+.main-sgrid-card {
+    position: relative;
+}
+
+.collection-comp {
+    background-color: rgb(157, 177, 177);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 781px;
+    position: absolute;
+    top: 90%;
+    border-radius: 10px;
+    font-size: 40px;
+    height: 80px;
+    align-items: center;
+    grid-area: first;
+}
+
+.main-first-grid-container{
+    max-width: 1480px;
+}
+
+.main-first-grid {
+    display: grid;
+    grid-template-areas: 
+    "first second"
+    "thid thid";
+    row-gap: 60px;
+    margin-top: 70px;
+}
+
+.main-first-grid-p{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 80px;
+    
+}
+
+.main-first-grid-wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-card{
+    grid-area: first;
+}
+.second-card{
+    grid-area: second;
+}
+
+.thid-card{
+    grid-area: thid;
+}
+
+#second {
+    width: 678px;
+}
+
+#thid {
+    width: 1480px;
+}
+
+.collection-comp-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}

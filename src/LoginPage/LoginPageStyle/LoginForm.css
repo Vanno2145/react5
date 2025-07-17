@@ -1,0 +1,117 @@
+.login-form-container {
+    max-width: 1920px;
+    min-width: 1920px;
+    height: 936px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.login-form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form-background-img {
+    background-image: url(/public/LoginComponentImg/Back.png);
+
+}
+
+.login-form-background-img h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 240px;
+}
+
+.login-form-background-img img {
+    margin: 40px 0px 0px 40px;
+}
+
+.login-form {
+
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-form-email-phone,
+.login-form-password-input {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 428px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.login-cont-password {
+    margin-bottom: 40px;
+}
+
+.login-cont-email p,
+a {
+    color: gray;
+}
+
+.login-cont-email {
+    margin-bottom: 40px;
+}
+
+.login-form-password-input input {
+    border: none;
+}
+
+.login-form-password-input img {
+    width: 22px;
+    height: 15px;
+    margin-right: 16px;
+}
+
+.login-form-saveinfo-container,
+.login-form-save {
+    display: flex;
+    text-align: center;
+    color: gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-form-saveinfo-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.login-form button {
+    width: 428px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.login-form-submit {
+    background-color: black;
+    color: white;
+    font-size: large;
+    margin-bottom: 80px;
+}
+
+.login-form-create-account {
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+
+.login-form-create-account-p{
+    font-weight: bold;
+}

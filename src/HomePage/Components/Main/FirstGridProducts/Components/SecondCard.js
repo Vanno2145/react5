@@ -1,4 +1,4 @@
-import './../../MainStyles/FirstCard.css'
+import './../../MainStyles/MainCard.css'
 
 function SecondCard(props) {
     return (

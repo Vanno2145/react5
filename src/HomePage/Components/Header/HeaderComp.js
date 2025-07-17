@@ -9,34 +9,6 @@ import HeaderAllForHome from './HeaderAllForHome'
 function HeaderComp() {
     return (
         <div className='header-page'>
-            <div className='top-slider-cont'>
-                <div className='top-slider'>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                    <p>#вседлядому</p>
-                    <p>#швидкотазручно</p>
-                    <p>#buy now</p>
-                </div>
-            </div>
             <Header />
             <div className='header-page-cont'>
                 <HeaderInput />

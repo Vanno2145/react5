@@ -13,45 +13,7 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 1980px;
-}
-
-.top-slider-cont {
-    width: 500px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    margin: 0;
-    line-height: 1.5;
-    background-color: cadetblue;
-    width: 1980px;
-    color: white;
-    height: 40px;
-}
-
-.top-slider {
-    display: flex;
-    flex-direction: row;
-    min-width: 100%;
-    animation: ticker-scroll 15s linear infinite;
-}
-
-.top-slider p {
-    padding: 0;
-    color: white;
-    margin: 0;
-    flex-shrink: 0;
-    margin-right: 20px;
-    font-size: large;
-}
-
-@keyframes ticker-scroll {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
-
+    min-width: 1980px;
 }
 
 .header-text-cont {

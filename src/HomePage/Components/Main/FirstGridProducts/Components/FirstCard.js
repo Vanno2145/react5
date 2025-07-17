@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../MainStyles/FirstCard.css'
+import './../../MainStyles/MainCard.css'
 
 
 function FirstCard(props) {
