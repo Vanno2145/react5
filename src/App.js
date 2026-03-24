@@ -8,7 +8,10 @@ import LoginForm from './LoginPage/LoginForm';
 function App() {
   return (
     <>
-      <LoginForm></LoginForm>
+      <HeaderComp></HeaderComp>
+      {/* <LoginForm></LoginForm>
+      <Grid></Grid>
+      <Carousel></Carousel> */}
     </>
   );
 }
